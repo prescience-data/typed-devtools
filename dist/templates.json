@@ -1,0 +1,3189 @@
+{
+  "commands": [
+    {
+      "method": "Accessibility.disable"
+    },
+    {
+      "method": "Accessibility.enable"
+    },
+    {
+      "method": "Accessibility.getPartialAXTree",
+      "params": {
+        "nodeId": null,
+        "backendNodeId": null,
+        "objectId": null,
+        "fetchRelatives": null
+      }
+    },
+    {
+      "method": "Accessibility.getFullAXTree",
+      "params": {
+        "depth": null,
+        "max_depth": null,
+        "frameId": null
+      }
+    },
+    {
+      "method": "Accessibility.getRootAXNode",
+      "params": {
+        "frameId": null
+      }
+    },
+    {
+      "method": "Accessibility.getAXNodeAndAncestors",
+      "params": {
+        "nodeId": null,
+        "backendNodeId": null,
+        "objectId": null
+      }
+    },
+    {
+      "method": "Accessibility.getChildAXNodes",
+      "params": {
+        "id": null,
+        "frameId": null
+      }
+    },
+    {
+      "method": "Accessibility.queryAXTree",
+      "params": {
+        "nodeId": null,
+        "backendNodeId": null,
+        "objectId": null,
+        "accessibleName": null,
+        "role": null
+      }
+    },
+    {
+      "method": "Animation.disable"
+    },
+    {
+      "method": "Animation.enable"
+    },
+    {
+      "method": "Animation.getCurrentTime",
+      "params": {
+        "id": null
+      }
+    },
+    {
+      "method": "Animation.getPlaybackRate"
+    },
+    {
+      "method": "Animation.releaseAnimations",
+      "params": {
+        "animations": null
+      }
+    },
+    {
+      "method": "Animation.resolveAnimation",
+      "params": {
+        "animationId": null
+      }
+    },
+    {
+      "method": "Animation.seekAnimations",
+      "params": {
+        "animations": null,
+        "currentTime": null
+      }
+    },
+    {
+      "method": "Animation.setPaused",
+      "params": {
+        "animations": null,
+        "paused": null
+      }
+    },
+    {
+      "method": "Animation.setPlaybackRate",
+      "params": {
+        "playbackRate": null
+      }
+    },
+    {
+      "method": "Animation.setTiming",
+      "params": {
+        "animationId": null,
+        "duration": null,
+        "delay": null
+      }
+    },
+    {
+      "method": "Audits.getEncodedResponse",
+      "params": {
+        "requestId": null,
+        "encoding": null,
+        "quality": null,
+        "sizeOnly": null
+      }
+    },
+    {
+      "method": "Audits.disable"
+    },
+    {
+      "method": "Audits.enable"
+    },
+    {
+      "method": "Audits.checkContrast",
+      "params": {
+        "reportAAA": null
+      }
+    },
+    {
+      "method": "BackgroundService.startObserving",
+      "params": {
+        "service": null
+      }
+    },
+    {
+      "method": "BackgroundService.stopObserving",
+      "params": {
+        "service": null
+      }
+    },
+    {
+      "method": "BackgroundService.setRecording",
+      "params": {
+        "shouldRecord": null,
+        "service": null
+      }
+    },
+    {
+      "method": "BackgroundService.clearEvents",
+      "params": {
+        "service": null
+      }
+    },
+    {
+      "method": "Browser.setPermission",
+      "params": {
+        "permission": null,
+        "setting": null,
+        "origin": null,
+        "browserContextId": null
+      }
+    },
+    {
+      "method": "Browser.grantPermissions",
+      "params": {
+        "permissions": null,
+        "origin": null,
+        "browserContextId": null
+      }
+    },
+    {
+      "method": "Browser.resetPermissions",
+      "params": {
+        "browserContextId": null
+      }
+    },
+    {
+      "method": "Browser.setDownloadBehavior",
+      "params": {
+        "behavior": null,
+        "browserContextId": null,
+        "downloadPath": null,
+        "eventsEnabled": null
+      }
+    },
+    {
+      "method": "Browser.cancelDownload",
+      "params": {
+        "guid": null,
+        "browserContextId": null
+      }
+    },
+    {
+      "method": "Browser.close"
+    },
+    {
+      "method": "Browser.crash"
+    },
+    {
+      "method": "Browser.crashGpuProcess"
+    },
+    {
+      "method": "Browser.getVersion"
+    },
+    {
+      "method": "Browser.getBrowserCommandLine"
+    },
+    {
+      "method": "Browser.getHistograms",
+      "params": {
+        "query": null,
+        "delta": null
+      }
+    },
+    {
+      "method": "Browser.getHistogram",
+      "params": {
+        "name": null,
+        "delta": null
+      }
+    },
+    {
+      "method": "Browser.getWindowBounds",
+      "params": {
+        "windowId": null
+      }
+    },
+    {
+      "method": "Browser.getWindowForTarget",
+      "params": {
+        "targetId": null
+      }
+    },
+    {
+      "method": "Browser.setWindowBounds",
+      "params": {
+        "windowId": null,
+        "bounds": null
+      }
+    },
+    {
+      "method": "Browser.setDockTile",
+      "params": {
+        "badgeLabel": null,
+        "image": null
+      }
+    },
+    {
+      "method": "Browser.executeBrowserCommand",
+      "params": {
+        "commandId": null
+      }
+    },
+    {
+      "method": "CSS.addRule",
+      "params": {
+        "styleSheetId": null,
+        "ruleText": null,
+        "location": null
+      }
+    },
+    {
+      "method": "CSS.collectClassNames",
+      "params": {
+        "styleSheetId": null
+      }
+    },
+    {
+      "method": "CSS.createStyleSheet",
+      "params": {
+        "frameId": null
+      }
+    },
+    {
+      "method": "CSS.disable"
+    },
+    {
+      "method": "CSS.enable"
+    },
+    {
+      "method": "CSS.forcePseudoState",
+      "params": {
+        "nodeId": null,
+        "forcedPseudoClasses": null
+      }
+    },
+    {
+      "method": "CSS.getBackgroundColors",
+      "params": {
+        "nodeId": null
+      }
+    },
+    {
+      "method": "CSS.getComputedStyleForNode",
+      "params": {
+        "nodeId": null
+      }
+    },
+    {
+      "method": "CSS.getInlineStylesForNode",
+      "params": {
+        "nodeId": null
+      }
+    },
+    {
+      "method": "CSS.getMatchedStylesForNode",
+      "params": {
+        "nodeId": null
+      }
+    },
+    {
+      "method": "CSS.getMediaQueries"
+    },
+    {
+      "method": "CSS.getPlatformFontsForNode",
+      "params": {
+        "nodeId": null
+      }
+    },
+    {
+      "method": "CSS.getStyleSheetText",
+      "params": {
+        "styleSheetId": null
+      }
+    },
+    {
+      "method": "CSS.trackComputedStyleUpdates",
+      "params": {
+        "propertiesToTrack": null
+      }
+    },
+    {
+      "method": "CSS.takeComputedStyleUpdates"
+    },
+    {
+      "method": "CSS.setEffectivePropertyValueForNode",
+      "params": {
+        "nodeId": null,
+        "propertyName": null,
+        "value": null
+      }
+    },
+    {
+      "method": "CSS.setKeyframeKey",
+      "params": {
+        "styleSheetId": null,
+        "range": null,
+        "keyText": null
+      }
+    },
+    {
+      "method": "CSS.setMediaText",
+      "params": {
+        "styleSheetId": null,
+        "range": null,
+        "text": null
+      }
+    },
+    {
+      "method": "CSS.setContainerQueryText",
+      "params": {
+        "styleSheetId": null,
+        "range": null,
+        "text": null
+      }
+    },
+    {
+      "method": "CSS.setRuleSelector",
+      "params": {
+        "styleSheetId": null,
+        "range": null,
+        "selector": null
+      }
+    },
+    {
+      "method": "CSS.setStyleSheetText",
+      "params": {
+        "styleSheetId": null,
+        "text": null
+      }
+    },
+    {
+      "method": "CSS.setStyleTexts",
+      "params": {
+        "edits": null
+      }
+    },
+    {
+      "method": "CSS.startRuleUsageTracking"
+    },
+    {
+      "method": "CSS.stopRuleUsageTracking"
+    },
+    {
+      "method": "CSS.takeCoverageDelta"
+    },
+    {
+      "method": "CSS.setLocalFontsEnabled",
+      "params": {
+        "enabled": null
+      }
+    },
+    {
+      "method": "CacheStorage.deleteCache",
+      "params": {
+        "cacheId": null
+      }
+    },
+    {
+      "method": "CacheStorage.deleteEntry",
+      "params": {
+        "cacheId": null,
+        "request": null
+      }
+    },
+    {
+      "method": "CacheStorage.requestCacheNames",
+      "params": {
+        "securityOrigin": null
+      }
+    },
+    {
+      "method": "CacheStorage.requestCachedResponse",
+      "params": {
+        "cacheId": null,
+        "requestURL": null,
+        "requestHeaders": null
+      }
+    },
+    {
+      "method": "CacheStorage.requestEntries",
+      "params": {
+        "cacheId": null,
+        "skipCount": null,
+        "pageSize": null,
+        "pathFilter": null
+      }
+    },
+    {
+      "method": "Cast.enable",
+      "params": {
+        "presentationUrl": null
+      }
+    },
+    {
+      "method": "Cast.disable"
+    },
+    {
+      "method": "Cast.setSinkToUse",
+      "params": {
+        "sinkName": null
+      }
+    },
+    {
+      "method": "Cast.startTabMirroring",
+      "params": {
+        "sinkName": null
+      }
+    },
+    {
+      "method": "Cast.stopCasting",
+      "params": {
+        "sinkName": null
+      }
+    },
+    {
+      "method": "DOM.collectClassNamesFromSubtree",
+      "params": {
+        "nodeId": null
+      }
+    },
+    {
+      "method": "DOM.copyTo",
+      "params": {
+        "nodeId": null,
+        "targetNodeId": null,
+        "insertBeforeNodeId": null
+      }
+    },
+    {
+      "method": "DOM.describeNode",
+      "params": {
+        "nodeId": null,
+        "backendNodeId": null,
+        "objectId": null,
+        "depth": null,
+        "pierce": null
+      }
+    },
+    {
+      "method": "DOM.scrollIntoViewIfNeeded",
+      "params": {
+        "nodeId": null,
+        "backendNodeId": null,
+        "objectId": null,
+        "rect": null
+      }
+    },
+    {
+      "method": "DOM.disable"
+    },
+    {
+      "method": "DOM.discardSearchResults",
+      "params": {
+        "searchId": null
+      }
+    },
+    {
+      "method": "DOM.enable"
+    },
+    {
+      "method": "DOM.focus",
+      "params": {
+        "nodeId": null,
+        "backendNodeId": null,
+        "objectId": null
+      }
+    },
+    {
+      "method": "DOM.getAttributes",
+      "params": {
+        "nodeId": null
+      }
+    },
+    {
+      "method": "DOM.getBoxModel",
+      "params": {
+        "nodeId": null,
+        "backendNodeId": null,
+        "objectId": null
+      }
+    },
+    {
+      "method": "DOM.getContentQuads",
+      "params": {
+        "nodeId": null,
+        "backendNodeId": null,
+        "objectId": null
+      }
+    },
+    {
+      "method": "DOM.getDocument",
+      "params": {
+        "depth": null,
+        "pierce": null
+      }
+    },
+    {
+      "method": "DOM.getFlattenedDocument",
+      "params": {
+        "depth": null,
+        "pierce": null
+      }
+    },
+    {
+      "method": "DOM.getNodesForSubtreeByStyle",
+      "params": {
+        "nodeId": null,
+        "computedStyles": null,
+        "pierce": null
+      }
+    },
+    {
+      "method": "DOM.getNodeForLocation",
+      "params": {
+        "x": null,
+        "y": null,
+        "includeUserAgentShadowDOM": null,
+        "ignorePointerEventsNone": null
+      }
+    },
+    {
+      "method": "DOM.getOuterHTML",
+      "params": {
+        "nodeId": null,
+        "backendNodeId": null,
+        "objectId": null
+      }
+    },
+    {
+      "method": "DOM.getRelayoutBoundary",
+      "params": {
+        "nodeId": null
+      }
+    },
+    {
+      "method": "DOM.getSearchResults",
+      "params": {
+        "searchId": null,
+        "fromIndex": null,
+        "toIndex": null
+      }
+    },
+    {
+      "method": "DOM.hideHighlight"
+    },
+    {
+      "method": "DOM.highlightNode"
+    },
+    {
+      "method": "DOM.highlightRect"
+    },
+    {
+      "method": "DOM.markUndoableState"
+    },
+    {
+      "method": "DOM.moveTo",
+      "params": {
+        "nodeId": null,
+        "targetNodeId": null,
+        "insertBeforeNodeId": null
+      }
+    },
+    {
+      "method": "DOM.performSearch",
+      "params": {
+        "query": null,
+        "includeUserAgentShadowDOM": null
+      }
+    },
+    {
+      "method": "DOM.pushNodeByPathToFrontend",
+      "params": {
+        "path": null
+      }
+    },
+    {
+      "method": "DOM.pushNodesByBackendIdsToFrontend",
+      "params": {
+        "backendNodeIds": null
+      }
+    },
+    {
+      "method": "DOM.querySelector",
+      "params": {
+        "nodeId": null,
+        "selector": null
+      }
+    },
+    {
+      "method": "DOM.querySelectorAll",
+      "params": {
+        "nodeId": null,
+        "selector": null
+      }
+    },
+    {
+      "method": "DOM.redo"
+    },
+    {
+      "method": "DOM.removeAttribute",
+      "params": {
+        "nodeId": null,
+        "name": null
+      }
+    },
+    {
+      "method": "DOM.removeNode",
+      "params": {
+        "nodeId": null
+      }
+    },
+    {
+      "method": "DOM.requestChildNodes",
+      "params": {
+        "nodeId": null,
+        "depth": null,
+        "pierce": null
+      }
+    },
+    {
+      "method": "DOM.requestNode",
+      "params": {
+        "objectId": null
+      }
+    },
+    {
+      "method": "DOM.resolveNode",
+      "params": {
+        "nodeId": null,
+        "backendNodeId": null,
+        "objectGroup": null,
+        "executionContextId": null
+      }
+    },
+    {
+      "method": "DOM.setAttributeValue",
+      "params": {
+        "nodeId": null,
+        "name": null,
+        "value": null
+      }
+    },
+    {
+      "method": "DOM.setAttributesAsText",
+      "params": {
+        "nodeId": null,
+        "text": null,
+        "name": null
+      }
+    },
+    {
+      "method": "DOM.setFileInputFiles",
+      "params": {
+        "files": null,
+        "nodeId": null,
+        "backendNodeId": null,
+        "objectId": null
+      }
+    },
+    {
+      "method": "DOM.setNodeStackTracesEnabled",
+      "params": {
+        "enable": null
+      }
+    },
+    {
+      "method": "DOM.getNodeStackTraces",
+      "params": {
+        "nodeId": null
+      }
+    },
+    {
+      "method": "DOM.getFileInfo",
+      "params": {
+        "objectId": null
+      }
+    },
+    {
+      "method": "DOM.setInspectedNode",
+      "params": {
+        "nodeId": null
+      }
+    },
+    {
+      "method": "DOM.setNodeName",
+      "params": {
+        "nodeId": null,
+        "name": null
+      }
+    },
+    {
+      "method": "DOM.setNodeValue",
+      "params": {
+        "nodeId": null,
+        "value": null
+      }
+    },
+    {
+      "method": "DOM.setOuterHTML",
+      "params": {
+        "nodeId": null,
+        "outerHTML": null
+      }
+    },
+    {
+      "method": "DOM.undo"
+    },
+    {
+      "method": "DOM.getFrameOwner",
+      "params": {
+        "frameId": null
+      }
+    },
+    {
+      "method": "DOM.getContainerForNode",
+      "params": {
+        "nodeId": null,
+        "containerName": null
+      }
+    },
+    {
+      "method": "DOM.getQueryingDescendantsForContainer",
+      "params": {
+        "nodeId": null
+      }
+    },
+    {
+      "method": "DOMDebugger.getEventListeners",
+      "params": {
+        "objectId": null,
+        "depth": null,
+        "pierce": null
+      }
+    },
+    {
+      "method": "DOMDebugger.removeDOMBreakpoint",
+      "params": {
+        "nodeId": null,
+        "type": null
+      }
+    },
+    {
+      "method": "DOMDebugger.removeEventListenerBreakpoint",
+      "params": {
+        "eventName": null,
+        "targetName": null
+      }
+    },
+    {
+      "method": "DOMDebugger.removeInstrumentationBreakpoint",
+      "params": {
+        "eventName": null
+      }
+    },
+    {
+      "method": "DOMDebugger.removeXHRBreakpoint",
+      "params": {
+        "url": null
+      }
+    },
+    {
+      "method": "DOMDebugger.setBreakOnCSPViolation",
+      "params": {
+        "violationTypes": null
+      }
+    },
+    {
+      "method": "DOMDebugger.setDOMBreakpoint",
+      "params": {
+        "nodeId": null,
+        "type": null
+      }
+    },
+    {
+      "method": "DOMDebugger.setEventListenerBreakpoint",
+      "params": {
+        "eventName": null,
+        "targetName": null
+      }
+    },
+    {
+      "method": "DOMDebugger.setInstrumentationBreakpoint",
+      "params": {
+        "eventName": null
+      }
+    },
+    {
+      "method": "DOMDebugger.setXHRBreakpoint",
+      "params": {
+        "url": null
+      }
+    },
+    {
+      "method": "EventBreakpoints.setInstrumentationBreakpoint",
+      "params": {
+        "eventName": null
+      }
+    },
+    {
+      "method": "EventBreakpoints.removeInstrumentationBreakpoint",
+      "params": {
+        "eventName": null
+      }
+    },
+    {
+      "method": "DOMSnapshot.disable"
+    },
+    {
+      "method": "DOMSnapshot.enable"
+    },
+    {
+      "method": "DOMSnapshot.getSnapshot",
+      "params": {
+        "computedStyleWhitelist": null,
+        "includeEventListeners": null,
+        "includePaintOrder": null,
+        "includeUserAgentShadowTree": null
+      }
+    },
+    {
+      "method": "DOMSnapshot.captureSnapshot",
+      "params": {
+        "computedStyles": null,
+        "includePaintOrder": null,
+        "includeDOMRects": null,
+        "includeBlendedBackgroundColors": null,
+        "includeTextColorOpacities": null
+      }
+    },
+    {
+      "method": "DOMStorage.clear",
+      "params": {
+        "storageId": null
+      }
+    },
+    {
+      "method": "DOMStorage.disable"
+    },
+    {
+      "method": "DOMStorage.enable"
+    },
+    {
+      "method": "DOMStorage.getDOMStorageItems",
+      "params": {
+        "storageId": null
+      }
+    },
+    {
+      "method": "DOMStorage.removeDOMStorageItem",
+      "params": {
+        "storageId": null,
+        "key": null
+      }
+    },
+    {
+      "method": "DOMStorage.setDOMStorageItem",
+      "params": {
+        "storageId": null,
+        "key": null,
+        "value": null
+      }
+    },
+    {
+      "method": "Database.disable"
+    },
+    {
+      "method": "Database.enable"
+    },
+    {
+      "method": "Database.executeSQL",
+      "params": {
+        "databaseId": null,
+        "query": null
+      }
+    },
+    {
+      "method": "Database.getDatabaseTableNames",
+      "params": {
+        "databaseId": null
+      }
+    },
+    {
+      "method": "DeviceOrientation.clearDeviceOrientationOverride"
+    },
+    {
+      "method": "DeviceOrientation.setDeviceOrientationOverride",
+      "params": {
+        "alpha": null,
+        "beta": null,
+        "gamma": null
+      }
+    },
+    {
+      "method": "Emulation.canEmulate"
+    },
+    {
+      "method": "Emulation.clearDeviceMetricsOverride"
+    },
+    {
+      "method": "Emulation.clearGeolocationOverride"
+    },
+    {
+      "method": "Emulation.resetPageScaleFactor"
+    },
+    {
+      "method": "Emulation.setFocusEmulationEnabled",
+      "params": {
+        "enabled": null
+      }
+    },
+    {
+      "method": "Emulation.setAutoDarkModeOverride",
+      "params": {
+        "enabled": null
+      }
+    },
+    {
+      "method": "Emulation.setCPUThrottlingRate",
+      "params": {
+        "rate": null
+      }
+    },
+    {
+      "method": "Emulation.setDefaultBackgroundColorOverride",
+      "params": {
+        "color": null
+      }
+    },
+    {
+      "method": "Emulation.setDeviceMetricsOverride",
+      "params": {
+        "width": null,
+        "height": null,
+        "deviceScaleFactor": null,
+        "mobile": null,
+        "scale": null,
+        "screenWidth": null,
+        "screenHeight": null,
+        "positionX": null,
+        "positionY": null,
+        "dontSetVisibleSize": null,
+        "screenOrientation": null,
+        "viewport": null,
+        "displayFeature": null
+      }
+    },
+    {
+      "method": "Emulation.setScrollbarsHidden",
+      "params": {
+        "hidden": null
+      }
+    },
+    {
+      "method": "Emulation.setDocumentCookieDisabled",
+      "params": {
+        "disabled": null
+      }
+    },
+    {
+      "method": "Emulation.setEmitTouchEventsForMouse",
+      "params": {
+        "enabled": null,
+        "configuration": null
+      }
+    },
+    {
+      "method": "Emulation.setEmulatedMedia",
+      "params": {
+        "media": null,
+        "features": null
+      }
+    },
+    {
+      "method": "Emulation.setEmulatedVisionDeficiency",
+      "params": {
+        "type": null
+      }
+    },
+    {
+      "method": "Emulation.setGeolocationOverride",
+      "params": {
+        "latitude": null,
+        "longitude": null,
+        "accuracy": null
+      }
+    },
+    {
+      "method": "Emulation.setIdleOverride",
+      "params": {
+        "isUserActive": null,
+        "isScreenUnlocked": null
+      }
+    },
+    {
+      "method": "Emulation.clearIdleOverride"
+    },
+    {
+      "method": "Emulation.setNavigatorOverrides",
+      "params": {
+        "platform": null
+      }
+    },
+    {
+      "method": "Emulation.setPageScaleFactor",
+      "params": {
+        "pageScaleFactor": null
+      }
+    },
+    {
+      "method": "Emulation.setScriptExecutionDisabled",
+      "params": {
+        "value": null
+      }
+    },
+    {
+      "method": "Emulation.setTouchEmulationEnabled",
+      "params": {
+        "enabled": null,
+        "maxTouchPoints": null
+      }
+    },
+    {
+      "method": "Emulation.setVirtualTimePolicy",
+      "params": {
+        "policy": null,
+        "budget": null,
+        "maxVirtualTimeTaskStarvationCount": null,
+        "waitForNavigation": null,
+        "initialVirtualTime": null
+      }
+    },
+    {
+      "method": "Emulation.setLocaleOverride",
+      "params": {
+        "locale": null
+      }
+    },
+    {
+      "method": "Emulation.setTimezoneOverride",
+      "params": {
+        "timezoneId": null
+      }
+    },
+    {
+      "method": "Emulation.setVisibleSize",
+      "params": {
+        "width": null,
+        "height": null
+      }
+    },
+    {
+      "method": "Emulation.setDisabledImageTypes",
+      "params": {
+        "imageTypes": null
+      }
+    },
+    {
+      "method": "Emulation.setUserAgentOverride",
+      "params": {
+        "userAgent": null,
+        "acceptLanguage": null,
+        "platform": null,
+        "userAgentMetadata": null
+      }
+    },
+    {
+      "method": "HeadlessExperimental.beginFrame",
+      "params": {
+        "frameTimeTicks": null,
+        "interval": null,
+        "noDisplayUpdates": null,
+        "screenshot": null
+      }
+    },
+    {
+      "method": "HeadlessExperimental.disable"
+    },
+    {
+      "method": "HeadlessExperimental.enable"
+    },
+    {
+      "method": "IO.close",
+      "params": {
+        "handle": null
+      }
+    },
+    {
+      "method": "IO.read",
+      "params": {
+        "handle": null,
+        "offset": null,
+        "size": null
+      }
+    },
+    {
+      "method": "IO.resolveBlob",
+      "params": {
+        "objectId": null
+      }
+    },
+    {
+      "method": "IndexedDB.clearObjectStore",
+      "params": {
+        "securityOrigin": null,
+        "databaseName": null,
+        "objectStoreName": null
+      }
+    },
+    {
+      "method": "IndexedDB.deleteDatabase",
+      "params": {
+        "securityOrigin": null,
+        "databaseName": null
+      }
+    },
+    {
+      "method": "IndexedDB.deleteObjectStoreEntries",
+      "params": {
+        "securityOrigin": null,
+        "databaseName": null,
+        "objectStoreName": null,
+        "keyRange": null
+      }
+    },
+    {
+      "method": "IndexedDB.disable"
+    },
+    {
+      "method": "IndexedDB.enable"
+    },
+    {
+      "method": "IndexedDB.requestData",
+      "params": {
+        "securityOrigin": null,
+        "databaseName": null,
+        "objectStoreName": null,
+        "indexName": null,
+        "skipCount": null,
+        "pageSize": null,
+        "keyRange": null
+      }
+    },
+    {
+      "method": "IndexedDB.getMetadata",
+      "params": {
+        "securityOrigin": null,
+        "databaseName": null,
+        "objectStoreName": null
+      }
+    },
+    {
+      "method": "IndexedDB.requestDatabase",
+      "params": {
+        "securityOrigin": null,
+        "databaseName": null
+      }
+    },
+    {
+      "method": "IndexedDB.requestDatabaseNames",
+      "params": {
+        "securityOrigin": null
+      }
+    },
+    {
+      "method": "Input.dispatchDragEvent",
+      "params": {
+        "type": null,
+        "x": null,
+        "y": null,
+        "data": null,
+        "modifiers": null
+      }
+    },
+    {
+      "method": "Input.dispatchKeyEvent",
+      "params": {
+        "type": null,
+        "modifiers": null,
+        "timestamp": null,
+        "text": null,
+        "unmodifiedText": null,
+        "keyIdentifier": null,
+        "code": null,
+        "key": null,
+        "windowsVirtualKeyCode": null,
+        "nativeVirtualKeyCode": null,
+        "autoRepeat": null,
+        "isKeypad": null,
+        "isSystemKey": null,
+        "location": null,
+        "commands": null
+      }
+    },
+    {
+      "method": "Input.insertText",
+      "params": {
+        "text": null
+      }
+    },
+    {
+      "method": "Input.imeSetComposition",
+      "params": {
+        "text": null,
+        "selectionStart": null,
+        "selectionEnd": null,
+        "replacementStart": null,
+        "replacementEnd": null
+      }
+    },
+    {
+      "method": "Input.dispatchMouseEvent",
+      "params": {
+        "type": null,
+        "x": null,
+        "y": null,
+        "modifiers": null,
+        "timestamp": null,
+        "button": null,
+        "buttons": null,
+        "clickCount": null,
+        "force": null,
+        "tangentialPressure": null,
+        "tiltX": null,
+        "tiltY": null,
+        "twist": null,
+        "deltaX": null,
+        "deltaY": null,
+        "pointerType": null
+      }
+    },
+    {
+      "method": "Input.dispatchTouchEvent",
+      "params": {
+        "type": null,
+        "touchPoints": null,
+        "modifiers": null,
+        "timestamp": null
+      }
+    },
+    {
+      "method": "Input.emulateTouchFromMouseEvent",
+      "params": {
+        "type": null,
+        "x": null,
+        "y": null,
+        "button": null,
+        "timestamp": null,
+        "deltaX": null,
+        "deltaY": null,
+        "modifiers": null,
+        "clickCount": null
+      }
+    },
+    {
+      "method": "Input.setIgnoreInputEvents",
+      "params": {
+        "ignore": null
+      }
+    },
+    {
+      "method": "Input.setInterceptDrags",
+      "params": {
+        "enabled": null
+      }
+    },
+    {
+      "method": "Input.synthesizePinchGesture",
+      "params": {
+        "x": null,
+        "y": null,
+        "scaleFactor": null,
+        "relativeSpeed": null,
+        "gestureSourceType": null
+      }
+    },
+    {
+      "method": "Input.synthesizeScrollGesture",
+      "params": {
+        "x": null,
+        "y": null,
+        "xDistance": null,
+        "yDistance": null,
+        "xOverscroll": null,
+        "yOverscroll": null,
+        "preventFling": null,
+        "speed": null,
+        "gestureSourceType": null,
+        "repeatCount": null,
+        "repeatDelayMs": null,
+        "interactionMarkerName": null
+      }
+    },
+    {
+      "method": "Input.synthesizeTapGesture",
+      "params": {
+        "x": null,
+        "y": null,
+        "duration": null,
+        "tapCount": null,
+        "gestureSourceType": null
+      }
+    },
+    {
+      "method": "Inspector.disable"
+    },
+    {
+      "method": "Inspector.enable"
+    },
+    {
+      "method": "LayerTree.compositingReasons",
+      "params": {
+        "layerId": null
+      }
+    },
+    {
+      "method": "LayerTree.disable"
+    },
+    {
+      "method": "LayerTree.enable"
+    },
+    {
+      "method": "LayerTree.loadSnapshot",
+      "params": {
+        "tiles": null
+      }
+    },
+    {
+      "method": "LayerTree.makeSnapshot",
+      "params": {
+        "layerId": null
+      }
+    },
+    {
+      "method": "LayerTree.profileSnapshot",
+      "params": {
+        "snapshotId": null,
+        "minRepeatCount": null,
+        "minDuration": null,
+        "clipRect": null
+      }
+    },
+    {
+      "method": "LayerTree.releaseSnapshot",
+      "params": {
+        "snapshotId": null
+      }
+    },
+    {
+      "method": "LayerTree.replaySnapshot",
+      "params": {
+        "snapshotId": null,
+        "fromStep": null,
+        "toStep": null,
+        "scale": null
+      }
+    },
+    {
+      "method": "LayerTree.snapshotCommandLog",
+      "params": {
+        "snapshotId": null
+      }
+    },
+    {
+      "method": "Log.clear"
+    },
+    {
+      "method": "Log.disable"
+    },
+    {
+      "method": "Log.enable"
+    },
+    {
+      "method": "Log.startViolationsReport",
+      "params": {
+        "config": null
+      }
+    },
+    {
+      "method": "Log.stopViolationsReport"
+    },
+    {
+      "method": "Memory.getDOMCounters"
+    },
+    {
+      "method": "Memory.prepareForLeakDetection"
+    },
+    {
+      "method": "Memory.forciblyPurgeJavaScriptMemory"
+    },
+    {
+      "method": "Memory.setPressureNotificationsSuppressed",
+      "params": {
+        "suppressed": null
+      }
+    },
+    {
+      "method": "Memory.simulatePressureNotification",
+      "params": {
+        "level": null
+      }
+    },
+    {
+      "method": "Memory.startSampling",
+      "params": {
+        "samplingInterval": null,
+        "suppressRandomness": null
+      }
+    },
+    {
+      "method": "Memory.stopSampling"
+    },
+    {
+      "method": "Memory.getAllTimeSamplingProfile"
+    },
+    {
+      "method": "Memory.getBrowserSamplingProfile"
+    },
+    {
+      "method": "Memory.getSamplingProfile"
+    },
+    {
+      "method": "Network.setAcceptedEncodings",
+      "params": {
+        "encodings": null
+      }
+    },
+    {
+      "method": "Network.clearAcceptedEncodingsOverride"
+    },
+    {
+      "method": "Network.canClearBrowserCache"
+    },
+    {
+      "method": "Network.canClearBrowserCookies"
+    },
+    {
+      "method": "Network.canEmulateNetworkConditions"
+    },
+    {
+      "method": "Network.clearBrowserCache"
+    },
+    {
+      "method": "Network.clearBrowserCookies"
+    },
+    {
+      "method": "Network.continueInterceptedRequest",
+      "params": {
+        "interceptionId": null,
+        "errorReason": null,
+        "rawResponse": null,
+        "url": null,
+        "method": null,
+        "postData": null,
+        "headers": null,
+        "authChallengeResponse": null
+      }
+    },
+    {
+      "method": "Network.deleteCookies",
+      "params": {
+        "name": null,
+        "url": null,
+        "domain": null,
+        "path": null
+      }
+    },
+    {
+      "method": "Network.disable"
+    },
+    {
+      "method": "Network.emulateNetworkConditions",
+      "params": {
+        "offline": null,
+        "latency": null,
+        "downloadThroughput": null,
+        "uploadThroughput": null,
+        "connectionType": null
+      }
+    },
+    {
+      "method": "Network.enable",
+      "params": {
+        "maxTotalBufferSize": null,
+        "maxResourceBufferSize": null,
+        "maxPostDataSize": null
+      }
+    },
+    {
+      "method": "Network.getAllCookies"
+    },
+    {
+      "method": "Network.getCertificate",
+      "params": {
+        "origin": null
+      }
+    },
+    {
+      "method": "Network.getCookies",
+      "params": {
+        "urls": null
+      }
+    },
+    {
+      "method": "Network.getResponseBody",
+      "params": {
+        "requestId": null
+      }
+    },
+    {
+      "method": "Network.getRequestPostData",
+      "params": {
+        "requestId": null
+      }
+    },
+    {
+      "method": "Network.getResponseBodyForInterception",
+      "params": {
+        "interceptionId": null
+      }
+    },
+    {
+      "method": "Network.takeResponseBodyForInterceptionAsStream",
+      "params": {
+        "interceptionId": null
+      }
+    },
+    {
+      "method": "Network.replayXHR",
+      "params": {
+        "requestId": null
+      }
+    },
+    {
+      "method": "Network.searchInResponseBody",
+      "params": {
+        "requestId": null,
+        "query": null,
+        "caseSensitive": null,
+        "isRegex": null
+      }
+    },
+    {
+      "method": "Network.setBlockedURLs",
+      "params": {
+        "urls": null
+      }
+    },
+    {
+      "method": "Network.setBypassServiceWorker",
+      "params": {
+        "bypass": null
+      }
+    },
+    {
+      "method": "Network.setCacheDisabled",
+      "params": {
+        "cacheDisabled": null
+      }
+    },
+    {
+      "method": "Network.setCookie",
+      "params": {
+        "name": null,
+        "value": null,
+        "url": null,
+        "domain": null,
+        "path": null,
+        "secure": null,
+        "httpOnly": null,
+        "sameSite": null,
+        "expires": null,
+        "priority": null,
+        "sameParty": null,
+        "sourceScheme": null,
+        "sourcePort": null,
+        "partitionKey": null
+      }
+    },
+    {
+      "method": "Network.setCookies",
+      "params": {
+        "cookies": null
+      }
+    },
+    {
+      "method": "Network.setExtraHTTPHeaders",
+      "params": {
+        "headers": null
+      }
+    },
+    {
+      "method": "Network.setAttachDebugStack",
+      "params": {
+        "enabled": null
+      }
+    },
+    {
+      "method": "Network.setRequestInterception",
+      "params": {
+        "patterns": null
+      }
+    },
+    {
+      "method": "Network.setUserAgentOverride",
+      "params": {
+        "userAgent": null,
+        "acceptLanguage": null,
+        "platform": null,
+        "userAgentMetadata": null
+      }
+    },
+    {
+      "method": "Network.getSecurityIsolationStatus",
+      "params": {
+        "frameId": null
+      }
+    },
+    {
+      "method": "Network.enableReportingApi",
+      "params": {
+        "enable": null
+      }
+    },
+    {
+      "method": "Network.loadNetworkResource",
+      "params": {
+        "frameId": null,
+        "url": null,
+        "options": null
+      }
+    },
+    {
+      "method": "Overlay.disable"
+    },
+    {
+      "method": "Overlay.enable"
+    },
+    {
+      "method": "Overlay.getHighlightObjectForTest",
+      "params": {
+        "nodeId": null,
+        "includeDistance": null,
+        "includeStyle": null,
+        "colorFormat": null,
+        "showAccessibilityInfo": null
+      }
+    },
+    {
+      "method": "Overlay.getGridHighlightObjectsForTest",
+      "params": {
+        "nodeIds": null
+      }
+    },
+    {
+      "method": "Overlay.getSourceOrderHighlightObjectForTest",
+      "params": {
+        "nodeId": null
+      }
+    },
+    {
+      "method": "Overlay.hideHighlight"
+    },
+    {
+      "method": "Overlay.highlightFrame",
+      "params": {
+        "frameId": null,
+        "contentColor": null,
+        "contentOutlineColor": null
+      }
+    },
+    {
+      "method": "Overlay.highlightNode",
+      "params": {
+        "highlightConfig": null,
+        "nodeId": null,
+        "backendNodeId": null,
+        "objectId": null,
+        "selector": null
+      }
+    },
+    {
+      "method": "Overlay.highlightQuad",
+      "params": {
+        "quad": null,
+        "color": null,
+        "outlineColor": null
+      }
+    },
+    {
+      "method": "Overlay.highlightRect",
+      "params": {
+        "x": null,
+        "y": null,
+        "width": null,
+        "height": null,
+        "color": null,
+        "outlineColor": null
+      }
+    },
+    {
+      "method": "Overlay.highlightSourceOrder",
+      "params": {
+        "sourceOrderConfig": null,
+        "nodeId": null,
+        "backendNodeId": null,
+        "objectId": null
+      }
+    },
+    {
+      "method": "Overlay.setInspectMode",
+      "params": {
+        "mode": null,
+        "highlightConfig": null
+      }
+    },
+    {
+      "method": "Overlay.setShowAdHighlights",
+      "params": {
+        "show": null
+      }
+    },
+    {
+      "method": "Overlay.setPausedInDebuggerMessage",
+      "params": {
+        "message": null
+      }
+    },
+    {
+      "method": "Overlay.setShowDebugBorders",
+      "params": {
+        "show": null
+      }
+    },
+    {
+      "method": "Overlay.setShowFPSCounter",
+      "params": {
+        "show": null
+      }
+    },
+    {
+      "method": "Overlay.setShowGridOverlays",
+      "params": {
+        "gridNodeHighlightConfigs": null
+      }
+    },
+    {
+      "method": "Overlay.setShowFlexOverlays",
+      "params": {
+        "flexNodeHighlightConfigs": null
+      }
+    },
+    {
+      "method": "Overlay.setShowScrollSnapOverlays",
+      "params": {
+        "scrollSnapHighlightConfigs": null
+      }
+    },
+    {
+      "method": "Overlay.setShowContainerQueryOverlays",
+      "params": {
+        "containerQueryHighlightConfigs": null
+      }
+    },
+    {
+      "method": "Overlay.setShowPaintRects",
+      "params": {
+        "result": null
+      }
+    },
+    {
+      "method": "Overlay.setShowLayoutShiftRegions",
+      "params": {
+        "result": null
+      }
+    },
+    {
+      "method": "Overlay.setShowScrollBottleneckRects",
+      "params": {
+        "show": null
+      }
+    },
+    {
+      "method": "Overlay.setShowHitTestBorders",
+      "params": {
+        "show": null
+      }
+    },
+    {
+      "method": "Overlay.setShowWebVitals",
+      "params": {
+        "show": null
+      }
+    },
+    {
+      "method": "Overlay.setShowViewportSizeOnResize",
+      "params": {
+        "show": null
+      }
+    },
+    {
+      "method": "Overlay.setShowHinge",
+      "params": {
+        "hingeConfig": null
+      }
+    },
+    {
+      "method": "Overlay.setShowIsolatedElements",
+      "params": {
+        "isolatedElementHighlightConfigs": null
+      }
+    },
+    {
+      "method": "Page.addScriptToEvaluateOnLoad",
+      "params": {
+        "scriptSource": null
+      }
+    },
+    {
+      "method": "Page.addScriptToEvaluateOnNewDocument",
+      "params": {
+        "source": null,
+        "worldName": null,
+        "includeCommandLineAPI": null
+      }
+    },
+    {
+      "method": "Page.bringToFront"
+    },
+    {
+      "method": "Page.captureScreenshot",
+      "params": {
+        "format": null,
+        "quality": null,
+        "clip": null,
+        "fromSurface": null,
+        "captureBeyondViewport": null
+      }
+    },
+    {
+      "method": "Page.captureSnapshot",
+      "params": {
+        "format": null
+      }
+    },
+    {
+      "method": "Page.clearDeviceMetricsOverride"
+    },
+    {
+      "method": "Page.clearDeviceOrientationOverride"
+    },
+    {
+      "method": "Page.clearGeolocationOverride"
+    },
+    {
+      "method": "Page.createIsolatedWorld",
+      "params": {
+        "frameId": null,
+        "worldName": null,
+        "grantUniveralAccess": null
+      }
+    },
+    {
+      "method": "Page.deleteCookie",
+      "params": {
+        "cookieName": null,
+        "url": null
+      }
+    },
+    {
+      "method": "Page.disable"
+    },
+    {
+      "method": "Page.enable"
+    },
+    {
+      "method": "Page.getAppManifest"
+    },
+    {
+      "method": "Page.getInstallabilityErrors"
+    },
+    {
+      "method": "Page.getManifestIcons"
+    },
+    {
+      "method": "Page.getAppId"
+    },
+    {
+      "method": "Page.getCookies"
+    },
+    {
+      "method": "Page.getFrameTree"
+    },
+    {
+      "method": "Page.getLayoutMetrics"
+    },
+    {
+      "method": "Page.getNavigationHistory"
+    },
+    {
+      "method": "Page.resetNavigationHistory"
+    },
+    {
+      "method": "Page.getResourceContent",
+      "params": {
+        "frameId": null,
+        "url": null
+      }
+    },
+    {
+      "method": "Page.getResourceTree"
+    },
+    {
+      "method": "Page.handleJavaScriptDialog",
+      "params": {
+        "accept": null,
+        "promptText": null
+      }
+    },
+    {
+      "method": "Page.navigate",
+      "params": {
+        "url": null,
+        "referrer": null,
+        "transitionType": null,
+        "frameId": null,
+        "referrerPolicy": null
+      }
+    },
+    {
+      "method": "Page.navigateToHistoryEntry",
+      "params": {
+        "entryId": null
+      }
+    },
+    {
+      "method": "Page.printToPDF",
+      "params": {
+        "landscape": null,
+        "displayHeaderFooter": null,
+        "printBackground": null,
+        "scale": null,
+        "paperWidth": null,
+        "paperHeight": null,
+        "marginTop": null,
+        "marginBottom": null,
+        "marginLeft": null,
+        "marginRight": null,
+        "pageRanges": null,
+        "ignoreInvalidPageRanges": null,
+        "headerTemplate": null,
+        "footerTemplate": null,
+        "preferCSSPageSize": null,
+        "transferMode": null
+      }
+    },
+    {
+      "method": "Page.reload",
+      "params": {
+        "ignoreCache": null,
+        "scriptToEvaluateOnLoad": null
+      }
+    },
+    {
+      "method": "Page.removeScriptToEvaluateOnLoad",
+      "params": {
+        "identifier": null
+      }
+    },
+    {
+      "method": "Page.removeScriptToEvaluateOnNewDocument",
+      "params": {
+        "identifier": null
+      }
+    },
+    {
+      "method": "Page.screencastFrameAck",
+      "params": {
+        "sessionId": null
+      }
+    },
+    {
+      "method": "Page.searchInResource",
+      "params": {
+        "frameId": null,
+        "url": null,
+        "query": null,
+        "caseSensitive": null,
+        "isRegex": null
+      }
+    },
+    {
+      "method": "Page.setAdBlockingEnabled",
+      "params": {
+        "enabled": null
+      }
+    },
+    {
+      "method": "Page.setBypassCSP",
+      "params": {
+        "enabled": null
+      }
+    },
+    {
+      "method": "Page.getPermissionsPolicyState",
+      "params": {
+        "frameId": null
+      }
+    },
+    {
+      "method": "Page.getOriginTrials",
+      "params": {
+        "frameId": null
+      }
+    },
+    {
+      "method": "Page.setDeviceMetricsOverride",
+      "params": {
+        "width": null,
+        "height": null,
+        "deviceScaleFactor": null,
+        "mobile": null,
+        "scale": null,
+        "screenWidth": null,
+        "screenHeight": null,
+        "positionX": null,
+        "positionY": null,
+        "dontSetVisibleSize": null,
+        "screenOrientation": null,
+        "viewport": null
+      }
+    },
+    {
+      "method": "Page.setDeviceOrientationOverride",
+      "params": {
+        "alpha": null,
+        "beta": null,
+        "gamma": null
+      }
+    },
+    {
+      "method": "Page.setFontFamilies",
+      "params": {
+        "fontFamilies": null
+      }
+    },
+    {
+      "method": "Page.setFontSizes",
+      "params": {
+        "fontSizes": null
+      }
+    },
+    {
+      "method": "Page.setDocumentContent",
+      "params": {
+        "frameId": null,
+        "html": null
+      }
+    },
+    {
+      "method": "Page.setDownloadBehavior",
+      "params": {
+        "behavior": null,
+        "downloadPath": null
+      }
+    },
+    {
+      "method": "Page.setGeolocationOverride",
+      "params": {
+        "latitude": null,
+        "longitude": null,
+        "accuracy": null
+      }
+    },
+    {
+      "method": "Page.setLifecycleEventsEnabled",
+      "params": {
+        "enabled": null
+      }
+    },
+    {
+      "method": "Page.setTouchEmulationEnabled",
+      "params": {
+        "enabled": null,
+        "configuration": null
+      }
+    },
+    {
+      "method": "Page.startScreencast",
+      "params": {
+        "format": null,
+        "quality": null,
+        "maxWidth": null,
+        "maxHeight": null,
+        "everyNthFrame": null
+      }
+    },
+    {
+      "method": "Page.stopLoading"
+    },
+    {
+      "method": "Page.crash"
+    },
+    {
+      "method": "Page.close"
+    },
+    {
+      "method": "Page.setWebLifecycleState",
+      "params": {
+        "state": null
+      }
+    },
+    {
+      "method": "Page.stopScreencast"
+    },
+    {
+      "method": "Page.produceCompilationCache",
+      "params": {
+        "scripts": null
+      }
+    },
+    {
+      "method": "Page.addCompilationCache",
+      "params": {
+        "url": null,
+        "data": null
+      }
+    },
+    {
+      "method": "Page.clearCompilationCache"
+    },
+    {
+      "method": "Page.setSPCTransactionMode",
+      "params": {
+        "mode": null
+      }
+    },
+    {
+      "method": "Page.generateTestReport",
+      "params": {
+        "message": null,
+        "group": null
+      }
+    },
+    {
+      "method": "Page.waitForDebugger"
+    },
+    {
+      "method": "Page.setInterceptFileChooserDialog",
+      "params": {
+        "enabled": null
+      }
+    },
+    {
+      "method": "Performance.disable"
+    },
+    {
+      "method": "Performance.enable",
+      "params": {
+        "timeDomain": null
+      }
+    },
+    {
+      "method": "Performance.setTimeDomain",
+      "params": {
+        "timeDomain": null
+      }
+    },
+    {
+      "method": "Performance.getMetrics"
+    },
+    {
+      "method": "PerformanceTimeline.enable",
+      "params": {
+        "eventTypes": null
+      }
+    },
+    {
+      "method": "Security.disable"
+    },
+    {
+      "method": "Security.enable"
+    },
+    {
+      "method": "Security.setIgnoreCertificateErrors",
+      "params": {
+        "ignore": null
+      }
+    },
+    {
+      "method": "Security.handleCertificateError",
+      "params": {
+        "eventId": null,
+        "action": null
+      }
+    },
+    {
+      "method": "Security.setOverrideCertificateErrors",
+      "params": {
+        "override": null
+      }
+    },
+    {
+      "method": "ServiceWorker.deliverPushMessage",
+      "params": {
+        "origin": null,
+        "registrationId": null,
+        "data": null
+      }
+    },
+    {
+      "method": "ServiceWorker.disable"
+    },
+    {
+      "method": "ServiceWorker.dispatchSyncEvent",
+      "params": {
+        "origin": null,
+        "registrationId": null,
+        "tag": null,
+        "lastChance": null
+      }
+    },
+    {
+      "method": "ServiceWorker.dispatchPeriodicSyncEvent",
+      "params": {
+        "origin": null,
+        "registrationId": null,
+        "tag": null
+      }
+    },
+    {
+      "method": "ServiceWorker.enable"
+    },
+    {
+      "method": "ServiceWorker.inspectWorker",
+      "params": {
+        "versionId": null
+      }
+    },
+    {
+      "method": "ServiceWorker.setForceUpdateOnPageLoad",
+      "params": {
+        "forceUpdateOnPageLoad": null
+      }
+    },
+    {
+      "method": "ServiceWorker.skipWaiting",
+      "params": {
+        "scopeURL": null
+      }
+    },
+    {
+      "method": "ServiceWorker.startWorker",
+      "params": {
+        "scopeURL": null
+      }
+    },
+    {
+      "method": "ServiceWorker.stopAllWorkers"
+    },
+    {
+      "method": "ServiceWorker.stopWorker",
+      "params": {
+        "versionId": null
+      }
+    },
+    {
+      "method": "ServiceWorker.unregister",
+      "params": {
+        "scopeURL": null
+      }
+    },
+    {
+      "method": "ServiceWorker.updateRegistration",
+      "params": {
+        "scopeURL": null
+      }
+    },
+    {
+      "method": "Storage.clearDataForOrigin",
+      "params": {
+        "origin": null,
+        "storageTypes": null
+      }
+    },
+    {
+      "method": "Storage.getCookies",
+      "params": {
+        "browserContextId": null
+      }
+    },
+    {
+      "method": "Storage.setCookies",
+      "params": {
+        "cookies": null,
+        "browserContextId": null
+      }
+    },
+    {
+      "method": "Storage.clearCookies",
+      "params": {
+        "browserContextId": null
+      }
+    },
+    {
+      "method": "Storage.getUsageAndQuota",
+      "params": {
+        "origin": null
+      }
+    },
+    {
+      "method": "Storage.overrideQuotaForOrigin",
+      "params": {
+        "origin": null,
+        "quotaSize": null
+      }
+    },
+    {
+      "method": "Storage.trackCacheStorageForOrigin",
+      "params": {
+        "origin": null
+      }
+    },
+    {
+      "method": "Storage.trackIndexedDBForOrigin",
+      "params": {
+        "origin": null
+      }
+    },
+    {
+      "method": "Storage.untrackCacheStorageForOrigin",
+      "params": {
+        "origin": null
+      }
+    },
+    {
+      "method": "Storage.untrackIndexedDBForOrigin",
+      "params": {
+        "origin": null
+      }
+    },
+    {
+      "method": "Storage.getTrustTokens"
+    },
+    {
+      "method": "Storage.clearTrustTokens",
+      "params": {
+        "issuerOrigin": null
+      }
+    },
+    {
+      "method": "SystemInfo.getInfo"
+    },
+    {
+      "method": "SystemInfo.getProcessInfo"
+    },
+    {
+      "method": "Target.activateTarget",
+      "params": {
+        "targetId": null
+      }
+    },
+    {
+      "method": "Target.attachToTarget",
+      "params": {
+        "targetId": null,
+        "flatten": null
+      }
+    },
+    {
+      "method": "Target.attachToBrowserTarget"
+    },
+    {
+      "method": "Target.closeTarget",
+      "params": {
+        "targetId": null
+      }
+    },
+    {
+      "method": "Target.exposeDevToolsProtocol",
+      "params": {
+        "targetId": null,
+        "bindingName": null
+      }
+    },
+    {
+      "method": "Target.createBrowserContext",
+      "params": {
+        "disposeOnDetach": null,
+        "proxyServer": null,
+        "proxyBypassList": null,
+        "originsWithUniversalNetworkAccess": null
+      }
+    },
+    {
+      "method": "Target.getBrowserContexts"
+    },
+    {
+      "method": "Target.createTarget",
+      "params": {
+        "url": null,
+        "width": null,
+        "height": null,
+        "browserContextId": null,
+        "enableBeginFrameControl": null,
+        "newWindow": null,
+        "background": null
+      }
+    },
+    {
+      "method": "Target.detachFromTarget",
+      "params": {
+        "sessionId": null,
+        "targetId": null
+      }
+    },
+    {
+      "method": "Target.disposeBrowserContext",
+      "params": {
+        "browserContextId": null
+      }
+    },
+    {
+      "method": "Target.getTargetInfo",
+      "params": {
+        "targetId": null
+      }
+    },
+    {
+      "method": "Target.getTargets"
+    },
+    {
+      "method": "Target.sendMessageToTarget",
+      "params": {
+        "message": null,
+        "sessionId": null,
+        "targetId": null
+      }
+    },
+    {
+      "method": "Target.setAutoAttach",
+      "params": {
+        "autoAttach": null,
+        "waitForDebuggerOnStart": null,
+        "flatten": null
+      }
+    },
+    {
+      "method": "Target.autoAttachRelated",
+      "params": {
+        "targetId": null,
+        "waitForDebuggerOnStart": null
+      }
+    },
+    {
+      "method": "Target.setDiscoverTargets",
+      "params": {
+        "discover": null
+      }
+    },
+    {
+      "method": "Target.setRemoteLocations",
+      "params": {
+        "locations": null
+      }
+    },
+    {
+      "method": "Tethering.bind",
+      "params": {
+        "port": null
+      }
+    },
+    {
+      "method": "Tethering.unbind",
+      "params": {
+        "port": null
+      }
+    },
+    {
+      "method": "Tracing.end"
+    },
+    {
+      "method": "Tracing.getCategories"
+    },
+    {
+      "method": "Tracing.recordClockSyncMarker",
+      "params": {
+        "syncId": null
+      }
+    },
+    {
+      "method": "Tracing.requestMemoryDump",
+      "params": {
+        "deterministic": null,
+        "levelOfDetail": null
+      }
+    },
+    {
+      "method": "Tracing.start",
+      "params": {
+        "categories": null,
+        "options": null,
+        "bufferUsageReportingInterval": null,
+        "transferMode": null,
+        "streamFormat": null,
+        "streamCompression": null,
+        "traceConfig": null,
+        "perfettoConfig": null,
+        "tracingBackend": null
+      }
+    },
+    {
+      "method": "Fetch.disable"
+    },
+    {
+      "method": "Fetch.enable",
+      "params": {
+        "patterns": null,
+        "handleAuthRequests": null
+      }
+    },
+    {
+      "method": "Fetch.failRequest",
+      "params": {
+        "requestId": null,
+        "errorReason": null
+      }
+    },
+    {
+      "method": "Fetch.fulfillRequest",
+      "params": {
+        "requestId": null,
+        "responseCode": null,
+        "responseHeaders": null,
+        "binaryResponseHeaders": null,
+        "body": null,
+        "responsePhrase": null
+      }
+    },
+    {
+      "method": "Fetch.continueRequest",
+      "params": {
+        "requestId": null,
+        "url": null,
+        "method": null,
+        "postData": null,
+        "headers": null,
+        "interceptResponse": null
+      }
+    },
+    {
+      "method": "Fetch.continueWithAuth",
+      "params": {
+        "requestId": null,
+        "authChallengeResponse": null
+      }
+    },
+    {
+      "method": "Fetch.continueResponse",
+      "params": {
+        "requestId": null,
+        "responseCode": null,
+        "responsePhrase": null,
+        "responseHeaders": null,
+        "binaryResponseHeaders": null
+      }
+    },
+    {
+      "method": "Fetch.getResponseBody",
+      "params": {
+        "requestId": null
+      }
+    },
+    {
+      "method": "Fetch.takeResponseBodyAsStream",
+      "params": {
+        "requestId": null
+      }
+    },
+    {
+      "method": "WebAudio.enable"
+    },
+    {
+      "method": "WebAudio.disable"
+    },
+    {
+      "method": "WebAudio.getRealtimeData",
+      "params": {
+        "contextId": null
+      }
+    },
+    {
+      "method": "WebAuthn.enable"
+    },
+    {
+      "method": "WebAuthn.disable"
+    },
+    {
+      "method": "WebAuthn.addVirtualAuthenticator",
+      "params": {
+        "options": null
+      }
+    },
+    {
+      "method": "WebAuthn.removeVirtualAuthenticator",
+      "params": {
+        "authenticatorId": null
+      }
+    },
+    {
+      "method": "WebAuthn.addCredential",
+      "params": {
+        "authenticatorId": null,
+        "credential": null
+      }
+    },
+    {
+      "method": "WebAuthn.getCredential",
+      "params": {
+        "authenticatorId": null,
+        "credentialId": null
+      }
+    },
+    {
+      "method": "WebAuthn.getCredentials",
+      "params": {
+        "authenticatorId": null
+      }
+    },
+    {
+      "method": "WebAuthn.removeCredential",
+      "params": {
+        "authenticatorId": null,
+        "credentialId": null
+      }
+    },
+    {
+      "method": "WebAuthn.clearCredentials",
+      "params": {
+        "authenticatorId": null
+      }
+    },
+    {
+      "method": "WebAuthn.setUserVerified",
+      "params": {
+        "authenticatorId": null,
+        "isUserVerified": null
+      }
+    },
+    {
+      "method": "WebAuthn.setAutomaticPresenceSimulation",
+      "params": {
+        "authenticatorId": null,
+        "enabled": null
+      }
+    },
+    {
+      "method": "Media.enable"
+    },
+    {
+      "method": "Media.disable"
+    },
+    {
+      "method": "Console.clearMessages"
+    },
+    {
+      "method": "Console.disable"
+    },
+    {
+      "method": "Console.enable"
+    },
+    {
+      "method": "Debugger.continueToLocation",
+      "params": {
+        "location": null,
+        "targetCallFrames": null
+      }
+    },
+    {
+      "method": "Debugger.disable"
+    },
+    {
+      "method": "Debugger.enable",
+      "params": {
+        "maxScriptsCacheSize": null
+      }
+    },
+    {
+      "method": "Debugger.evaluateOnCallFrame",
+      "params": {
+        "callFrameId": null,
+        "expression": null,
+        "objectGroup": null,
+        "includeCommandLineAPI": null,
+        "silent": null,
+        "returnByValue": null,
+        "generatePreview": null,
+        "throwOnSideEffect": null,
+        "timeout": null
+      }
+    },
+    {
+      "method": "Debugger.getPossibleBreakpoints",
+      "params": {
+        "start": null,
+        "end": null,
+        "restrictToFunction": null
+      }
+    },
+    {
+      "method": "Debugger.getScriptSource",
+      "params": {
+        "scriptId": null
+      }
+    },
+    {
+      "method": "Debugger.getWasmBytecode",
+      "params": {
+        "scriptId": null
+      }
+    },
+    {
+      "method": "Debugger.getStackTrace",
+      "params": {
+        "stackTraceId": null
+      }
+    },
+    {
+      "method": "Debugger.pause"
+    },
+    {
+      "method": "Debugger.pauseOnAsyncCall",
+      "params": {
+        "parentStackTraceId": null
+      }
+    },
+    {
+      "method": "Debugger.removeBreakpoint",
+      "params": {
+        "breakpointId": null
+      }
+    },
+    {
+      "method": "Debugger.restartFrame",
+      "params": {
+        "callFrameId": null
+      }
+    },
+    {
+      "method": "Debugger.resume",
+      "params": {
+        "terminateOnResume": null
+      }
+    },
+    {
+      "method": "Debugger.searchInContent",
+      "params": {
+        "scriptId": null,
+        "query": null,
+        "caseSensitive": null,
+        "isRegex": null
+      }
+    },
+    {
+      "method": "Debugger.setAsyncCallStackDepth",
+      "params": {
+        "maxDepth": null
+      }
+    },
+    {
+      "method": "Debugger.setBlackboxPatterns",
+      "params": {
+        "patterns": null
+      }
+    },
+    {
+      "method": "Debugger.setBlackboxedRanges",
+      "params": {
+        "scriptId": null,
+        "positions": null
+      }
+    },
+    {
+      "method": "Debugger.setBreakpoint",
+      "params": {
+        "location": null,
+        "condition": null
+      }
+    },
+    {
+      "method": "Debugger.setInstrumentationBreakpoint",
+      "params": {
+        "instrumentation": null
+      }
+    },
+    {
+      "method": "Debugger.setBreakpointByUrl",
+      "params": {
+        "lineNumber": null,
+        "url": null,
+        "urlRegex": null,
+        "scriptHash": null,
+        "columnNumber": null,
+        "condition": null
+      }
+    },
+    {
+      "method": "Debugger.setBreakpointOnFunctionCall",
+      "params": {
+        "objectId": null,
+        "condition": null
+      }
+    },
+    {
+      "method": "Debugger.setBreakpointsActive",
+      "params": {
+        "active": null
+      }
+    },
+    {
+      "method": "Debugger.setPauseOnExceptions",
+      "params": {
+        "state": null
+      }
+    },
+    {
+      "method": "Debugger.setReturnValue",
+      "params": {
+        "newValue": null
+      }
+    },
+    {
+      "method": "Debugger.setScriptSource",
+      "params": {
+        "scriptId": null,
+        "scriptSource": null,
+        "dryRun": null
+      }
+    },
+    {
+      "method": "Debugger.setSkipAllPauses",
+      "params": {
+        "skip": null
+      }
+    },
+    {
+      "method": "Debugger.setVariableValue",
+      "params": {
+        "scopeNumber": null,
+        "variableName": null,
+        "newValue": null,
+        "callFrameId": null
+      }
+    },
+    {
+      "method": "Debugger.stepInto",
+      "params": {
+        "breakOnAsyncCall": null,
+        "skipList": null
+      }
+    },
+    {
+      "method": "Debugger.stepOut"
+    },
+    {
+      "method": "Debugger.stepOver",
+      "params": {
+        "skipList": null
+      }
+    },
+    {
+      "method": "HeapProfiler.addInspectedHeapObject",
+      "params": {
+        "heapObjectId": null
+      }
+    },
+    {
+      "method": "HeapProfiler.collectGarbage"
+    },
+    {
+      "method": "HeapProfiler.disable"
+    },
+    {
+      "method": "HeapProfiler.enable"
+    },
+    {
+      "method": "HeapProfiler.getHeapObjectId",
+      "params": {
+        "objectId": null
+      }
+    },
+    {
+      "method": "HeapProfiler.getObjectByHeapObjectId",
+      "params": {
+        "objectId": null,
+        "objectGroup": null
+      }
+    },
+    {
+      "method": "HeapProfiler.getSamplingProfile"
+    },
+    {
+      "method": "HeapProfiler.startSampling",
+      "params": {
+        "samplingInterval": null
+      }
+    },
+    {
+      "method": "HeapProfiler.startTrackingHeapObjects",
+      "params": {
+        "trackAllocations": null
+      }
+    },
+    {
+      "method": "HeapProfiler.stopSampling"
+    },
+    {
+      "method": "HeapProfiler.stopTrackingHeapObjects",
+      "params": {
+        "reportProgress": null,
+        "treatGlobalObjectsAsRoots": null,
+        "captureNumericValue": null
+      }
+    },
+    {
+      "method": "HeapProfiler.takeHeapSnapshot",
+      "params": {
+        "reportProgress": null,
+        "treatGlobalObjectsAsRoots": null,
+        "captureNumericValue": null
+      }
+    },
+    {
+      "method": "Profiler.disable"
+    },
+    {
+      "method": "Profiler.enable"
+    },
+    {
+      "method": "Profiler.getBestEffortCoverage"
+    },
+    {
+      "method": "Profiler.setSamplingInterval",
+      "params": {
+        "interval": null
+      }
+    },
+    {
+      "method": "Profiler.start"
+    },
+    {
+      "method": "Profiler.startPreciseCoverage",
+      "params": {
+        "callCount": null,
+        "detailed": null,
+        "allowTriggeredUpdates": null
+      }
+    },
+    {
+      "method": "Profiler.startTypeProfile"
+    },
+    {
+      "method": "Profiler.stop"
+    },
+    {
+      "method": "Profiler.stopPreciseCoverage"
+    },
+    {
+      "method": "Profiler.stopTypeProfile"
+    },
+    {
+      "method": "Profiler.takePreciseCoverage"
+    },
+    {
+      "method": "Profiler.takeTypeProfile"
+    },
+    {
+      "method": "Runtime.awaitPromise",
+      "params": {
+        "promiseObjectId": null,
+        "returnByValue": null,
+        "generatePreview": null
+      }
+    },
+    {
+      "method": "Runtime.callFunctionOn",
+      "params": {
+        "functionDeclaration": null,
+        "objectId": null,
+        "arguments": null,
+        "silent": null,
+        "returnByValue": null,
+        "generatePreview": null,
+        "userGesture": null,
+        "awaitPromise": null,
+        "executionContextId": null,
+        "objectGroup": null,
+        "throwOnSideEffect": null
+      }
+    },
+    {
+      "method": "Runtime.compileScript",
+      "params": {
+        "expression": null,
+        "sourceURL": null,
+        "persistScript": null,
+        "executionContextId": null
+      }
+    },
+    {
+      "method": "Runtime.disable"
+    },
+    {
+      "method": "Runtime.discardConsoleEntries"
+    },
+    {
+      "method": "Runtime.enable"
+    },
+    {
+      "method": "Runtime.evaluate",
+      "params": {
+        "expression": null,
+        "objectGroup": null,
+        "includeCommandLineAPI": null,
+        "silent": null,
+        "contextId": null,
+        "returnByValue": null,
+        "generatePreview": null,
+        "userGesture": null,
+        "awaitPromise": null,
+        "throwOnSideEffect": null,
+        "timeout": null,
+        "disableBreaks": null,
+        "replMode": null,
+        "allowUnsafeEvalBlockedByCSP": null,
+        "uniqueContextId": null
+      }
+    },
+    {
+      "method": "Runtime.getIsolateId"
+    },
+    {
+      "method": "Runtime.getHeapUsage"
+    },
+    {
+      "method": "Runtime.getProperties",
+      "params": {
+        "objectId": null,
+        "ownProperties": null,
+        "accessorPropertiesOnly": null,
+        "generatePreview": null,
+        "nonIndexedPropertiesOnly": null
+      }
+    },
+    {
+      "method": "Runtime.globalLexicalScopeNames",
+      "params": {
+        "executionContextId": null
+      }
+    },
+    {
+      "method": "Runtime.queryObjects",
+      "params": {
+        "prototypeObjectId": null,
+        "objectGroup": null
+      }
+    },
+    {
+      "method": "Runtime.releaseObject",
+      "params": {
+        "objectId": null
+      }
+    },
+    {
+      "method": "Runtime.releaseObjectGroup",
+      "params": {
+        "objectGroup": null
+      }
+    },
+    {
+      "method": "Runtime.runIfWaitingForDebugger"
+    },
+    {
+      "method": "Runtime.runScript",
+      "params": {
+        "scriptId": null,
+        "executionContextId": null,
+        "objectGroup": null,
+        "silent": null,
+        "includeCommandLineAPI": null,
+        "returnByValue": null,
+        "generatePreview": null,
+        "awaitPromise": null
+      }
+    },
+    {
+      "method": "Runtime.setAsyncCallStackDepth",
+      "params": {
+        "maxDepth": null
+      }
+    },
+    {
+      "method": "Runtime.setCustomObjectFormatterEnabled",
+      "params": {
+        "enabled": null
+      }
+    },
+    {
+      "method": "Runtime.setMaxCallStackSizeToCapture",
+      "params": {
+        "size": null
+      }
+    },
+    {
+      "method": "Runtime.terminateExecution"
+    },
+    {
+      "method": "Runtime.addBinding",
+      "params": {
+        "name": null,
+        "executionContextId": null,
+        "executionContextName": null
+      }
+    },
+    {
+      "method": "Runtime.removeBinding",
+      "params": {
+        "name": null
+      }
+    },
+    {
+      "method": "Schema.getDomains"
+    }
+  ]
+}

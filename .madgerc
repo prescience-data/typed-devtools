@@ -1,0 +1,6 @@
+{
+  "includeNpm": false,
+  "fileExtensions": ["ts"],
+  "tsConfig": "tsconfig.json",
+  "skipTypeImports": true
+}

@@ -1,0 +1,4 @@
+lib/
+bin/
+node_modules/
+*.js

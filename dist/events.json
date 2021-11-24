@@ -1,0 +1,253 @@
+{
+  "Accessibility": [
+    "Accessibility.loadComplete",
+    "Accessibility.nodesUpdated"
+  ],
+  "Animation": [
+    "Animation.animationCanceled",
+    "Animation.animationCreated",
+    "Animation.animationStarted"
+  ],
+  "Audits": [
+    "Audits.issueAdded"
+  ],
+  "BackgroundService": [
+    "BackgroundService.recordingStateChanged",
+    "BackgroundService.backgroundServiceEventReceived"
+  ],
+  "Browser": [
+    "Browser.downloadWillBegin",
+    "Browser.downloadProgress"
+  ],
+  "CSS": [
+    "CSS.fontsUpdated",
+    "CSS.mediaQueryResultChanged",
+    "CSS.styleSheetAdded",
+    "CSS.styleSheetChanged",
+    "CSS.styleSheetRemoved"
+  ],
+  "CacheStorage": [],
+  "Cast": [
+    "Cast.sinksUpdated",
+    "Cast.issueUpdated"
+  ],
+  "DOM": [
+    "DOM.attributeModified",
+    "DOM.attributeRemoved",
+    "DOM.characterDataModified",
+    "DOM.childNodeCountUpdated",
+    "DOM.childNodeInserted",
+    "DOM.childNodeRemoved",
+    "DOM.distributedNodesUpdated",
+    "DOM.documentUpdated",
+    "DOM.inlineStyleInvalidated",
+    "DOM.pseudoElementAdded",
+    "DOM.pseudoElementRemoved",
+    "DOM.setChildNodes",
+    "DOM.shadowRootPopped",
+    "DOM.shadowRootPushed"
+  ],
+  "DOMDebugger": [],
+  "EventBreakpoints": [],
+  "DOMSnapshot": [],
+  "DOMStorage": [
+    "DOMStorage.domStorageItemAdded",
+    "DOMStorage.domStorageItemRemoved",
+    "DOMStorage.domStorageItemUpdated",
+    "DOMStorage.domStorageItemsCleared"
+  ],
+  "Database": [
+    "Database.addDatabase"
+  ],
+  "DeviceOrientation": [],
+  "Emulation": [
+    "Emulation.virtualTimeBudgetExpired"
+  ],
+  "HeadlessExperimental": [
+    "HeadlessExperimental.needsBeginFramesChanged"
+  ],
+  "IO": [],
+  "IndexedDB": [],
+  "Input": [
+    "Input.dragIntercepted"
+  ],
+  "Inspector": [
+    "Inspector.detached",
+    "Inspector.targetCrashed",
+    "Inspector.targetReloadedAfterCrash"
+  ],
+  "LayerTree": [
+    "LayerTree.layerPainted",
+    "LayerTree.layerTreeDidChange"
+  ],
+  "Log": [
+    "Log.entryAdded"
+  ],
+  "Memory": [],
+  "Network": [
+    "Network.dataReceived",
+    "Network.eventSourceMessageReceived",
+    "Network.loadingFailed",
+    "Network.loadingFinished",
+    "Network.requestIntercepted",
+    "Network.requestServedFromCache",
+    "Network.requestWillBeSent",
+    "Network.resourceChangedPriority",
+    "Network.signedExchangeReceived",
+    "Network.responseReceived",
+    "Network.webSocketClosed",
+    "Network.webSocketCreated",
+    "Network.webSocketFrameError",
+    "Network.webSocketFrameReceived",
+    "Network.webSocketFrameSent",
+    "Network.webSocketHandshakeResponseReceived",
+    "Network.webSocketWillSendHandshakeRequest",
+    "Network.webTransportCreated",
+    "Network.webTransportConnectionEstablished",
+    "Network.webTransportClosed",
+    "Network.requestWillBeSentExtraInfo",
+    "Network.responseReceivedExtraInfo",
+    "Network.trustTokenOperationDone",
+    "Network.subresourceWebBundleMetadataReceived",
+    "Network.subresourceWebBundleMetadataError",
+    "Network.subresourceWebBundleInnerResponseParsed",
+    "Network.subresourceWebBundleInnerResponseError",
+    "Network.reportingApiReportAdded",
+    "Network.reportingApiReportUpdated",
+    "Network.reportingApiEndpointsChangedForOrigin"
+  ],
+  "Overlay": [
+    "Overlay.inspectNodeRequested",
+    "Overlay.nodeHighlightRequested",
+    "Overlay.screenshotRequested",
+    "Overlay.inspectModeCanceled"
+  ],
+  "Page": [
+    "Page.domContentEventFired",
+    "Page.fileChooserOpened",
+    "Page.frameAttached",
+    "Page.frameClearedScheduledNavigation",
+    "Page.frameDetached",
+    "Page.frameNavigated",
+    "Page.documentOpened",
+    "Page.frameResized",
+    "Page.frameRequestedNavigation",
+    "Page.frameScheduledNavigation",
+    "Page.frameStartedLoading",
+    "Page.frameStoppedLoading",
+    "Page.downloadWillBegin",
+    "Page.downloadProgress",
+    "Page.interstitialHidden",
+    "Page.interstitialShown",
+    "Page.javascriptDialogClosed",
+    "Page.javascriptDialogOpening",
+    "Page.lifecycleEvent",
+    "Page.backForwardCacheNotUsed",
+    "Page.loadEventFired",
+    "Page.navigatedWithinDocument",
+    "Page.screencastFrame",
+    "Page.screencastVisibilityChanged",
+    "Page.windowOpen",
+    "Page.compilationCacheProduced"
+  ],
+  "Performance": [
+    "Performance.metrics"
+  ],
+  "PerformanceTimeline": [
+    "PerformanceTimeline.timelineEventAdded"
+  ],
+  "Security": [
+    "Security.certificateError",
+    "Security.visibleSecurityStateChanged",
+    "Security.securityStateChanged"
+  ],
+  "ServiceWorker": [
+    "ServiceWorker.workerErrorReported",
+    "ServiceWorker.workerRegistrationUpdated",
+    "ServiceWorker.workerVersionUpdated"
+  ],
+  "Storage": [
+    "Storage.cacheStorageContentUpdated",
+    "Storage.cacheStorageListUpdated",
+    "Storage.indexedDBContentUpdated",
+    "Storage.indexedDBListUpdated"
+  ],
+  "SystemInfo": [],
+  "Target": [
+    "Target.attachedToTarget",
+    "Target.detachedFromTarget",
+    "Target.receivedMessageFromTarget",
+    "Target.targetCreated",
+    "Target.targetDestroyed",
+    "Target.targetCrashed",
+    "Target.targetInfoChanged"
+  ],
+  "Tethering": [
+    "Tethering.accepted"
+  ],
+  "Tracing": [
+    "Tracing.bufferUsage",
+    "Tracing.dataCollected",
+    "Tracing.tracingComplete"
+  ],
+  "Fetch": [
+    "Fetch.requestPaused",
+    "Fetch.authRequired"
+  ],
+  "WebAudio": [
+    "WebAudio.contextCreated",
+    "WebAudio.contextWillBeDestroyed",
+    "WebAudio.contextChanged",
+    "WebAudio.audioListenerCreated",
+    "WebAudio.audioListenerWillBeDestroyed",
+    "WebAudio.audioNodeCreated",
+    "WebAudio.audioNodeWillBeDestroyed",
+    "WebAudio.audioParamCreated",
+    "WebAudio.audioParamWillBeDestroyed",
+    "WebAudio.nodesConnected",
+    "WebAudio.nodesDisconnected",
+    "WebAudio.nodeParamConnected",
+    "WebAudio.nodeParamDisconnected"
+  ],
+  "WebAuthn": [],
+  "Media": [
+    "Media.playerPropertiesChanged",
+    "Media.playerEventsAdded",
+    "Media.playerMessagesLogged",
+    "Media.playerErrorsRaised",
+    "Media.playersCreated"
+  ],
+  "Console": [
+    "Console.messageAdded"
+  ],
+  "Debugger": [
+    "Debugger.breakpointResolved",
+    "Debugger.paused",
+    "Debugger.resumed",
+    "Debugger.scriptFailedToParse",
+    "Debugger.scriptParsed"
+  ],
+  "HeapProfiler": [
+    "HeapProfiler.addHeapSnapshotChunk",
+    "HeapProfiler.heapStatsUpdate",
+    "HeapProfiler.lastSeenObjectId",
+    "HeapProfiler.reportHeapSnapshotProgress",
+    "HeapProfiler.resetProfiles"
+  ],
+  "Profiler": [
+    "Profiler.consoleProfileFinished",
+    "Profiler.consoleProfileStarted",
+    "Profiler.preciseCoverageDeltaUpdate"
+  ],
+  "Runtime": [
+    "Runtime.bindingCalled",
+    "Runtime.consoleAPICalled",
+    "Runtime.exceptionRevoked",
+    "Runtime.exceptionThrown",
+    "Runtime.executionContextCreated",
+    "Runtime.executionContextDestroyed",
+    "Runtime.executionContextsCleared",
+    "Runtime.inspectRequested"
+  ],
+  "Schema": []
+}

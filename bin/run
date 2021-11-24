@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+require("../lib/core/generate.js")
+  .generate()
+  .catch(error => {
+    console.error(error)
+    process.exit(1)
+  })

@@ -1,0 +1,8 @@
+# Don't allow merge changes to these generated files.
+pnpm-lock.yaml               merge=binary
+shrinkwrap.yaml              merge=binary
+npm-shrinkwrap.json          merge=binary
+yarn.lock                    merge=binary
+
+# Allow JSON config files to use JavaScript-style code comments.
+*.json                       linguist-language=JSON-with-Comments

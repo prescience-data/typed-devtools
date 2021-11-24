@@ -1,0 +1,21 @@
+{
+  "ignores": [
+    "@oclif/dev-cli",
+    "@oclif/errors",
+    "@oclif/plugin-commands",
+    "@oclif/plugin-help",
+    "@types/node",
+    "@types/ws",
+    "@typescript-eslint/parser",
+    "cz-conventional-changelog",
+    "dotenv-expand",
+    "eslint",
+    "prettier",
+    "tslib",
+    "ws"
+  ],
+  "ignorePatterns": [
+    ".heft",
+    ".rush"
+  ]
+}
